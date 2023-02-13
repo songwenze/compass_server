@@ -6,7 +6,8 @@
 #cp -R /opt/data/shm/account91 shm/account91
 #cp -R /opt/data/shm/script/ shm/script
 
-docker build --platform=linux/amd64  -f Dockerfile.dependent  --build-arg  --pull --no-cache  -t compass-vnc-server:latest .
+#docker build --platform=linux/amd64  -f Dockerfile.dependent  --build-arg  --pull --no-cache  -t compass-vnc-server:latest .
+docker build  -f Dockerfile.dependent  --build-arg  --pull --no-cache  -t compass-vnc-server:latest .
 docker push whereisyap/compass-vnc-server:latest
 
 #
