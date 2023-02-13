@@ -1,6 +1,6 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc
 
-# COPY shm /opt/data
+COPY share_dir /opt/data
 RUN curl -L https://github.com/mozilla/geckodriver/releases/download/v0.32.0/geckodriver-v0.32.0-linux64.tar.gz | tar xz -C /usr/local/bin
 
 COPY requirements.txt /opt/data
