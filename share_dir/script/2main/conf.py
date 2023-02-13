@@ -8,7 +8,7 @@
 # }
 
 DRIVER_PATH = '/usr/local/bin/geckodriver'
-FIREFOX_PROFILE_PATH = '/dev/shm'
+FIREFOX_PROFILE_PATH = '/opt/data/profile'
 MYSQL_CONF = {
     'host': "10.13.76.137",
     'user': "root",
