@@ -1,9 +1,8 @@
 # compass_server
 
-this is a Docker image to provide web VNC interface to access Ubuntu LXDE/LxQT desktop environment.
+this is a Docker image to provide web VNC interface to access Ubuntu LXDE/LxQT desktop environment, on which runs our human-like crawler bot. 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=2 orderedList=false} -->
-
+<img src="https://raw.github.com/fcwu/docker-ubuntu-vnc-desktop/master/screenshots/lxde.png?v1" width=700/>
 
 Project structure
 ---
@@ -31,7 +30,6 @@ docker run --platform linux/amd64 -p 6080:80 -p 5900:5900 -e USER=doro -e PASSWO
 
 Browse http://127.0.0.1:6080/
 
-<img src="https://raw.github.com/fcwu/docker-ubuntu-vnc-desktop/master/screenshots/lxde.png?v1" width=700/>
 
 ## Image build
 
